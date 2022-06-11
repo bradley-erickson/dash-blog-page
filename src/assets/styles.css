@@ -1,0 +1,5 @@
+
+.article-card:hover {
+    border: 2px solid var(--bs-primary) !important;
+    border-radius: 0.25rem;
+}
