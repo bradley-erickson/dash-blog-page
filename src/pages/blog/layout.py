@@ -48,7 +48,6 @@ def create_article_card(post):
 def create_article_page(post):
     '''Create the layout of the article page'''
     date_str = post.get('date').strftime(date_format)
-    twitter = post.get('twitter', None)
 
     image = post.get("image")
     layout = html.Div(
