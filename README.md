@@ -20,7 +20,7 @@ If you have a fix for it, feel free to submit a pull request!
 ## Blog
 
 Each article is created based on markdown files within the `/src/pages/blog/articles` directory.
-For any of the code shown below, please see `/src/pages/blog/layout.py` and ``/src/pages/home.py` pages.
+For any of the code shown below, please see `/src/pages/blog/layout.py` and `/src/pages/home.py` pages.
 
 ### Example article
 
@@ -42,8 +42,9 @@ date: 2022-01-01
 Simple write the blog post with Markdown here.
 ```
 
-The metadata about each article is set using Front Matter, the variables defined between the `---` components.
+The metadata about each article is set using FrontMatter, the variables defined between the `---` components.
 Use these variables to set specific information about your application.
+When creating each page, we will read the contents of the FrontMatter to set page specific content (such as link, title, description, and image).
 
 ### Creating the article
 
